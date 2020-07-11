@@ -1,0 +1,9 @@
+\l -> List of all DB present.
+create databse demo; -> To create DB.
+\c database_name; -> To jump from one DB to another.
+drop database database_name; -> To delete any database.
+create table table_name(name text,age int,address text,number bigint); -> To create a table.
+insert into table_name(name,age,address,number) values('Hitesh',20,'Rajasthan',8696001333); -> To add data in table.
+select * from table_name; -> List the table data.
+select * from table_name where age=45; -> will give you specefic row which possess that data.
+select name from table_name; -> For specefic column to display.
